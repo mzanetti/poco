@@ -20,7 +20,7 @@ Vcs-Git: https://anonscm.debian.org/cgit/collab-maint/poco.git
 Package: libpoco-dev
 Section: libdevel
 Architecture: any
-Depends: ${misc:Depends}, libpococrypto50 (= ${binary:Version}), libpocodata50 (= ${binary:Version}), libpocofoundation50 (= ${binary:Version}), libpocojson50 (= ${binary:Version}), libpocodatamysql50 (= ${binary:Version}), libpocomongodb50 (= ${binary:Version}), libpoconet50 (= ${binary:Version}), libpoconetssl50 (= ${binary:Version}), libpocodatasqlite50 (= ${binary:Version}), libpocoredis50 (= ${binary:Version}), libpocoutil50 (= ${binary:Version}), libpocoxml50 (= ${binary:Version}), libpocozip50 (= ${binary:Version}), libexpat1-dev, default-libmysqlclient-dev, libpcre3-dev, libsqlite3-dev, libssl-dev, zlib1g-dev
+Depends: ${misc:Depends}, libpococrypto50 (= ${binary:Version}), libpocodata50 (= ${binary:Version}), libpocofoundation50 (= ${binary:Version}), libpocojson50 (= ${binary:Version}), libpocodatamysql50 (= ${binary:Version}), libpocomongodb50 (= ${binary:Version}), libpoconet50 (= ${binary:Version}), libpoconetssl50 (= ${binary:Version}), libpocodatasqlite50 (= ${binary:Version}), libpocoredis50 (= ${binary:Version}), libpocoutil50 (= ${binary:Version}), libpocoxml50 (= ${binary:Version}), libpocozip50 (= ${binary:Version}), libexpat1-dev, libmysqlclient-dev | default-libmysqlclient-dev, libpcre3-dev, libsqlite3-dev, libssl-dev, zlib1g-dev
 Description: C++ Portable Components (POCO) Development files
  The POCO C++ Libraries are a collection of open source C++ class libraries
  that simplify and accelerate the development of network-centric, portable
